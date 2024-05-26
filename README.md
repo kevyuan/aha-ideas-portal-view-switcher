@@ -12,7 +12,7 @@
 1. Drag one of the following links onto your bookmarks bar
    * <a href="javascript: (() => {    if (window.location.hostname == 'ideas.sonatype.com') {        window.open(window.location.href.replace('ideas.sonatype.com', 'sonatype.aha.io/ideas'))    } else if (window.location.hostname == 'sonatype.aha.io') {        window.open(window.location.href.replace('sonatype.aha.io/ideas', 'ideas.sonatype.com'))    } else {        alert('This bookmarklet only works when you are viewing an idea in ideas.sonatype.com or sonatype.aha.io.')    }})();">Switch Ideas View</a> (New tab)
    * <a href="javascript: (() => {    if (window.location.hostname == 'ideas.sonatype.com') {        window.open(window.location.href.replace('ideas.sonatype.com', 'sonatype.aha.io/ideas'), '_self')    } else if (window.location.hostname == 'sonatype.aha.io') {        window.open(window.location.href.replace('sonatype.aha.io/ideas', 'ideas.sonatype.com'), '_self')    } else {        alert('This bookmarklet only works when you are viewing an idea in ideas.sonatype.com or sonatype.aha.io.')    }})();">Switch Ideas View</a> (Same tab)
-2. If the above link does not show, go [here](https://sonatype.github.io/aha-ideas-portal-view-switcher/) first
+2. If the above link does not show, go [here](https://kevyuan.github.io/aha-ideas-portal-view-switcher/) first
 
 #### Method 2: Manually create new bookmark
 1. Create a new bookmark using one of the following code blocks:
